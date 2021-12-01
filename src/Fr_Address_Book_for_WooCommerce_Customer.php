@@ -20,8 +20,6 @@ class Fr_Address_Book_for_WooCommerce_Customer {
             $addresses[$meta->id] = $meta->value;
         }
 
-        // print_r($addresses);
-
         return $addresses;
     }
 }
