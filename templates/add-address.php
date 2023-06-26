@@ -17,6 +17,8 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+do_action( 'woocommerce_before_edit_account_address_form' );
+
 ?>
 
 <div class="fabfw-add-address-container">
@@ -41,3 +43,5 @@ if (!defined('ABSPATH')) {
         </div>
     </form>
 </div>
+
+<?php do_action( 'woocommerce_before_edit_account_address_form' ); ?>
